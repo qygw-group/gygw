@@ -1,0 +1,334 @@
+html,body{
+    margin: 0;padding: 0;
+}
+p,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+}
+.section {
+     font: 50px "Microsoft Yahei";
+}
+
+#menu { 
+    margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;
+}
+#menu li {
+    float: left; margin:  0 10px 0 0; font-size: 14px;
+}
+#menu a {
+    float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;
+}
+/*第一屏*/
+.section1{
+    width: 100%;min-height: 900px;
+    background-image: url("../images/lbw-index/lbw-bg01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.lbw-title_main{
+    width: 83%;height: 438px;
+    margin: 0 auto;
+    padding-top: 5%;
+
+}
+.lbw-title_main>img{
+    margin: 0 auto;
+    display: block;
+
+}
+.fp-tableCell{
+    vertical-align:top;
+}
+.lbw-title{
+    width: 80%;
+    height: 33px;
+    text-align: center;
+    margin: 0 auto;
+}
+.lbw-title_content{
+    text-align: center;
+    line-height: 33px;
+    font-size: 30px;
+    color: #4c4c4c;
+}
+.lbw-video{
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.lbw-video_menu{
+    margin: 0 auto;
+    width: 50%;
+    height: 100px;
+
+}
+.lbw-video_menu>a{
+
+    background: url("../images/lbw-index/lbw-button_video.png") no-repeat center;
+    display: block;
+    height: 86px;
+}
+.lbw-video_title{
+    text-align: center;
+    line-height: 20px;
+    font-size: 17px;
+    color: #000;
+}
+
+/*第二屏*/
+.lbw-content{
+    width: 500px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.lbw-saas_title{
+    font-size: 50px;
+    line-height: 60px;
+    color: #1177c9;
+    text-align: center;
+}
+.lbw-saas_intro{
+    font-size: 30px;
+    line-height: 58px;
+    color: #4d4d4d;
+    text-align: center;
+}
+.lbw-saas_account{
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+}
+.lbw-saas_account>span{
+    color: #fd5e27
+}
+.lbw-saas_account>.lbw-info01_btn{
+    font-size: 16px;
+    color: #377eda;
+    cursor: pointer;
+}
+.lbw-pic_saas{
+    position: relative;
+    width: 1480px;
+    height: 468px;
+    border-bottom: 1px solid #cfd5e1;
+    margin: 0 auto;
+    overflow: hidden;
+    font-weight: normal;
+}
+.lbw-pic_saas>img{
+    position: absolute;
+}
+
+.lbw-pic_saas>.num{
+    position: absolute;
+    top: 690px;
+    left: 688px;
+    opacity: 1;
+    z-index: 115;
+}
+.lbw-pic_saas>.img1{
+    left: 300px; top: 119px; opacity: 0;
+}
+.lbw-pic_saas>.img2{
+    right: 300px; top: 105px; opacity: 0;
+}
+.lbw-pic_saas>.img3{
+    opacity: 0;margin: 0 auto;
+    top: 65px;
+    left: 270px;
+    z-index: 111;
+}
+.lbw-pic_saas>.img4{
+    left: 550px; top: 500px;
+    opacity: 0; z-index: 112;
+}
+
+/*第三屏*/
+.section3{
+    width: 100%;
+    min-height: 1000px;
+    margin: 0 auto;
+    background: url('../images/lbw-index/lbw-bg_star.png') no-repeat;
+    background-size: contain;
+    /*background-attachment: fixed;*/
+}
+.lbw-content02{
+    width: 564px;
+    min-height: 60px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 10.5%;
+    color: #ffffff;
+    line-height: 30px;
+}
+.lbw-company{
+    width: 939px;
+    height: 338px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: url('../images/lbw-index/lbw-company.jpg') no-repeat center;
+}
+/*第四屏*/
+.lbw-content03{
+    width: 1150px;
+    height: 880px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+}
+.left{
+    float: left
+}
+.lbw-container01{
+    width: 400px;
+    height: 600px;
+    background: url('../images/lbw-index/lbw-bg_phone.png') no-repeat center;
+    background-size: contain;
+}
+.swiper-wrapper{
+    width: 400px;
+    height: 500px;
+
+}
+.lbw-container01>.container001{
+    width: 284px;
+    height: 550px;
+    padding-top: 90px;
+
+}
+.swiper-slide img{
+    width: 284px;
+    height: 499px;
+}
+.swiper-pagination-bullets{
+    margin-top: 50px;
+}
+
+.lbw-container02{
+    width: 680px;
+    height: 500px;
+    margin-left: 20px;
+}
+.lbw-contentWords{
+    width: 680px;
+    padding-top: 30px;
+}
+.lbw-contentWords>.word01{
+    font-size: 45px;
+    color: #1177c9;
+    text-align: left;
+    line-height: 50px;
+}
+.lbw-contentWords>.word02{
+    font-size: 25px;
+    color: #333333;
+    text-align: left;
+    line-height: 30px;
+}
+.lbw-contentWords>.word03{
+    font-size: 14px;
+    color: #4d4d4d;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.lbw-content_intro{
+    width: 680px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.lbw-intro_word01{
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+}
+.lbw-intro_word02{
+    font-size: 16px;
+    line-height: 25px;
+    color: #4d4d4d;
+}
+.lbw-download_symbol{
+    width: 680px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.lbw-download{
+    width: 405px;
+    padding-left: 122px;
+}
+
+/*第五屏*/
+
+
+/*第六屏*/
+.lbw-content05{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.lbw-butler01{
+    font-size: 60px;
+    color: #152c5d;
+    text-align: center;
+    line-height: 60px;
+}
+.lbw-butler02{
+    font-size: 42px;
+    color: #000000;
+    text-align: center;
+    line-height: 80px;
+}
+.lbw-butler03{
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    line-height: 25px;
+}
+.lbw-content06{
+    width: 1201px;
+    height: 428px;
+    margin: 0 auto;
+    background: url(../images/lbw-index/lbw-phone3.png) no-repeat bottom;
+    background-size: contain;
+    margin-top: 20px;
+    position: relative;
+}
+.lbw-bar01{
+    width: 107px;
+    height: 137px;
+    position: absolute;
+    top: -4%;
+    left: 25%;
+    background: url(../images/lbw-index/lbw-bar1.png) no-repeat center;
+    animation: bar01  10s infinite ease;
+}
+.lbw-bar02{
+    width: 107px;
+    height: 137px;
+    position: absolute;
+    top: -13px;
+    left: 787px;
+    background: url(../images/lbw-index/lbw-bar2.png) no-repeat center;
+    animation: bar02  10s infinite ease;
+}
+@keyframes bar01{
+     0%{top:-4%}
+    50%{top:2%}
+    100%{top:-4%}
+}
+@keyframes bar02{
+    0%{top:2%}
+    50%{top:-4%}
+    100%{top:2%}
+}
