@@ -16,4 +16,5 @@ FAQ：https://www.tops001.com/faq.html     *
 1.代码头部、内容、尾部分离，用注释隔开
 2.文件以自己名字缩写为前缀，便签名一样,标签名统一用横杠'-'
 3.图片命名同上
-3文件命名方式   xxx-什么类型-什么内容       eg.lbw-categroy-about.html
+4.文件命名方式   xxx-什么类型-什么内容       eg.lbw-categroy-about.html
+5.每次先同步，再上传
