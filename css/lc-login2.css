@@ -1,0 +1,100 @@
+body,ul,li,dl,h1,h2,h3,h4,h5,h6,p,input{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+img{
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+body{
+    font: 12px/1.14 "微软雅黑",arial,宋体;
+    color: #666;
+    outline: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+#Login .login-top {
+    height: 100px;
+    line-height: 100px;
+    padding: 10px 19%;
+}
+.pull-left {
+    float: left !important;
+}
+#Login .login-top .pull-left ul > li {
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#Login .login-top .pull-left ul > li:last-of-type {
+    line-height: 62px;
+    vertical-align: top;
+}
+#Login .login-top .pull-left ul > li span {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+}
+#Login .login-top .pull-right .slogan {
+    height: 100px;
+    line-height: 100px;
+    padding-top: 20px;
+}
+.clearfix:after {
+    content: "\0020";
+    height: 0;
+    display: block;
+    clear: both;
+}
+#Login .login-content {
+    height: 600px;
+    background: url("../images/lc/login_bg.jpg") no-repeat;
+    position: relative;
+}
+#Login .login-content .login-box {
+    position: absolute;
+    right: 15%;
+    top: 120px;
+    width: 370px;
+    height: 325px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding-bottom: 35px;
+}
+#Login .login-content .login-box .login-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0;
+}
+#Login .login-content .login-box .btn-login {
+    background-color: #ff801a;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+}
+#Login .login-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+

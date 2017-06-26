@@ -1,0 +1,175 @@
+body,ul,li,dl,h1,h2,h3,h4,h5,h6,p,input{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+img{
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #A2A2A2;
+    height: 100%;
+    min-height: 100% !important;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.know{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    color: #0079c2;
+    font-size: 14px;
+    z-index: 999;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+.jumbotron{
+    padding: 0 !important;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f7fafc;
+    z-index: 1;
+    overflow: hidden;
+}
+.center-vertically-holder {
+    display: table;
+    height: 750px;
+    overflow: hidden;
+}
+.container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:before{
+    display: table;
+    content: " ";
+}
+.center-vertically {
+    width: 308px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    margin-top: -250px;
+    margin-left: -160px;
+}
+.tops {
+    width: 186px;
+    height: 58px;
+    background: url("../images/lc/tops.png");
+    margin: 0 auto;
+}
+.code {
+    width: 342px;
+    height: 367px;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9999;
+    background: url("../images/lc/code.png") no-repeat;
+    display: none;
+}
+#login_info {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: right;
+}
+.in_ct {
+    position: relative;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+#login_info .check-block {
+    position: relative;
+}
+#login_info .userName {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#login_info .inpAll {
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+    color: #333333;
+    border: 1px solid #d9d9d9;
+    display: block;
+    border-radius: 3px;
+    font-family: 微软雅黑;
+    padding-left: 14px;
+}
+#login_info .check-block-auth-code {
+    display: none;
+    overflow: hidden;
+}
+#login_info .check-block {
+    position: relative;
+}
+#login_info .btn_login {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #ff9600;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn_login:hover{
+    background-color: #a56500;
+}
+#login_info .forgetPassword {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    color: #666666 !important;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+#login_info .download {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f7fafc;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #0079c2;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 1px solid rgba(0,121,194,0.5);
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+

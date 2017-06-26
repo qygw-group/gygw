@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lc-login1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<a href="#" class="know">了解销冠</a>
+<div id="home" class="jumbotron jumbotron-register">
+    <!--<div id="particles-js">-->
+        <!--<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" ></canvas>-->
+    <!--</div>-->
+
+    <div class="container center-vertically-holder">
+        <div class="center-vertically">
+            <div class="tops"></div>
+            <div class="code"></div>
+            <form id="login_info">
+                <div class="in_ct">
+                    <div class="check-block check-block-name">
+                    <input name="userName" class="userName inpAll js_userName" id="userName" placeholder="请输入账号" type="text">
+                    <span class="errorWord" id="js-userNameErr"></span>
+                </div>
+                    <div class="check-block check-block-password">
+                        <input name="passWord" class="passWord inpAll js_passWord" id="password" placeholder="请输入密码" type="password">
+                        <span class="errorWord" id="js-passwordErr"></span>
+                    </div>
+                    <div class="check-block check-block-auth-code">
+                        <input name="code" class="inpAll js_auth_code" type="text">
+                        <img class="js_auth_code_img" alt="验证码" title="点击更换验证码" src="http://saasapi.apitops.com/topsales-web/jcaptcha.jpg?timeStamp=1498398410638">
+                        <span class="errorWord" id="js-authCodeErr"></span>
+                    </div>
+                </div>
+                <a href="javascript:;" class="btn_login" id="login">登&nbsp;录</a>
+                <a href="javascript:;" class="js_forget forgetPassword">忘记密码？</a>
+                <a href="javascript:;" class="js_download download">下载房产销冠APP</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
