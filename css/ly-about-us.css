@@ -1,0 +1,224 @@
+ul,li,input,p,body,header,footer,figure,img{
+    margin: 0;padding: 0;list-style: none;border: none;
+}
+a{
+    text-decoration: none
+}
+*{
+    box-sizing: border-box
+}
+
+
+.ly-about-k{
+    width: 100%;
+    min-height: 950px;
+    z-index: 999;
+    background: url("../images/ly-ab_bg.png") center bottom;
+    text-align: center;
+    background-size: 100% 100%;
+    padding-top: 54px;
+    background-attachment: fixed;
+}
+.ly-about-logo{
+    width: 362px;
+    height: 290px;
+    background: url("../images/ly-ab_symbol.png") no-repeat center bottom;
+    margin: 0 auto;
+}
+.ly-jieshao{
+    width: 1100px;
+    height: 270px;
+    margin: 60px auto 0px auto;
+    clear: both;
+}
+.ly-js{
+    width: 318px;
+    height: 100%;
+    float: left;
+    margin-left: 43px;
+}
+.ly-js-top{
+    width: 300px;
+    height: 153px;
+    background: url("../images/ly-ab_i1.png") no-repeat center top;
+}
+.ly-js-bottom{
+    width: 299px;
+    height: 85px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 11px;
+    line-height: 21px;
+}
+.ly-zj-k{
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    width: 400px;
+    margin: 70px auto 0px auto;
+}
+.ly-zj-bottom{
+    width: 95px;
+    border-bottom: 2px solid #ffffff;
+    height: 1px;
+    margin: 15px auto 0px auto;
+}
+
+.ly-history-k{
+    width: 100%;
+    min-height: 1079px;
+    background-color: #ffffff;
+}
+.ly-history-top{
+    width: 310px;
+    height: 66px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.ly-history-top>h1{
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    line-height: 24px;
+}
+.ly-history-top>h2{
+    font-size: 24px;
+    color: #999999;
+    text-align: center;
+}
+
+.ly-history-bottom{
+    width: 1200px;
+    height: 950px;
+    margin: 105px auto 0 auto;
+    clear: both;
+}
+.ly-bottom-left{
+    float: left;
+    width: 400px;
+    height: 600px;
+    background: url("../images/ly-ab_pic.png") no-repeat center top;
+}
+.ly-bottom-right{
+    float: left;
+    margin-left: 60px;
+}
+.ly-bottom-day{
+    height: 780px;
+    list-style-type: none;
+}
+.ly-time-start{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: right;
+}
+.ly-time-year{
+    line-height: 35px;
+    text-align: right;
+    font-size: 20px;
+}
+.ly-time-month{
+    line-height: 35px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.ly-time-dian{
+    float: left;
+    background: url("../images/ly-ab_list.jpg") no-repeat center top;
+    width: 113px;
+    height: 780px;
+    margin-top: 15px;
+}
+
+.ly-time-right{
+    width: 440px;
+    float: left;
+}
+.ly-time-js{
+    height: 780px;
+    list-style-type: none;
+
+}
+.ly-time-js>li{
+    text-align: left;
+}
+
+.ly-bottom-map-k{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.ly-bottom-map{
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(45, 45, 45);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 100%;
+    height: 100%
+}
+.ly-bottom-dw{
+    width: 520px;
+    height: 340px;
+    background: url("../images/ly-ab_contact.png") no-repeat center top;
+    position: absolute;
+    top: 100px;
+    right: 235px;
+}
+.ly-bottom-dwk{
+    width: 400px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-top: 75px;
+}
+.ly-bottom-dwk>h1{
+    font-size: 22px;
+    color: #333333;
+    text-align: left;
+}
+.ly-bottom-dwk>h2{
+    font-size: 16px;
+    color: #666666;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
