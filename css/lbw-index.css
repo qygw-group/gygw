@@ -130,6 +130,7 @@ p,ul,li,h1,h2,h3,h4,h5,h6{
     left: 688px;
     opacity: 1;
     z-index: 115;
+    color: #fff;
 }
 .lbw-pic_saas>.img1{
     left: 300px; top: 119px; opacity: 0;
@@ -268,6 +269,55 @@ p,ul,li,h1,h2,h3,h4,h5,h6{
 }
 
 /*第五屏*/
+.section5{
+    width: 100%;
+    min-height: 900px;
+    margin: 0 auto;
+    background: url(../images/lbw-index/lbw-bg_main05.jpg) no-repeat center;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.lbw-content04{
+    width: 840px;
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 130px;
+    position: relative;
+    overflow: hidden;
+}
+.lbw-gold_words left{
+    width: 580px;
+}
+.lbw-g_word01{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 60px;
+}
+.lbw-g_word02{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 70px;
+}
+.lbw-xiaoguan{
+    position: absolute;
+    top: 190px;
+    left: 55px;
+}
+#lbw-data_table{
+    width: 1039px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+    background: url(../images/lbw-index/lbw-bg_table.png);
+    background-size: 1039px 362px;
+    transform-style: preserve-3d;
+    transition: all 1.5s;
+    transform: perspective(875px) rotateX(40deg);
+    transform-origin: bottom;
+}
 
 
 /*第六屏*/
