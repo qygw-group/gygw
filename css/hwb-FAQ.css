@@ -1,0 +1,66 @@
+p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol{
+    margin: 0;padding: 0;
+    list-style: none;border: none;}
+img{border: none;display: block;margin: 0;padding: 0;}
+input,a{text-decoration: none;}
+body{font-size: 12px;font-family:微软雅黑;margin: 0 0;}
+
+
+
+/*FAQ-内容开始*/
+.f-toppic{
+    width: 149px;
+    height:91px;
+    padding-top: 67px;
+    margin: 0 auto;
+}
+.f-content{
+    width: 1200px;
+    height:93px;
+    margin: 0 auto;
+    background: url("../images/hwb-FAQ2.png");
+    margin-top: 20px;
+  
+}
+.f-content:hover{
+    background: url("../images/hwb-FAQ3.png");
+}
+.f-content span{
+    display: block;
+    height:auto;
+    width:270px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color:#666;
+    padding-top:20px;
+    padding-left: 18px;
+    z-index:1;
+}
+.f-content p{
+    font-size: 12px;
+    line-height: 16px;
+    color:#666;
+    padding-top:6px;
+    padding-left: 18px;
+    z-index:1;
+}
+.f-text{
+    width: 900px;
+    height:70px;
+    margin-left:300px;
+    margin-top: -40px;
+}
+.f-lxfs{
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+.f-lxfs p{
+    padding-left: -15px;
+    font-size: 16px;
+    color:#666;
+    line-height: 25px;
+}
